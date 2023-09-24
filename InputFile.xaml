@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>869.6,602.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>850.4,602.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>InputFile_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -85,6 +85,6 @@
         <OutArgument x:TypeArguments="x:String">[Name]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;My name is &quot; + Name  + &quot;and my age is&quot; + Age]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;My name  &quot; + Name  + &quot;and my age is&quot; + Age]" />
   </Sequence>
 </Activity>
